@@ -1,6 +1,6 @@
 # backend/Dockerfile
 FROM node:18
-
+#Docker File para Back
 WORKDIR /app
 
 COPY package*.json ./
