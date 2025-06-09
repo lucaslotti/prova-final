@@ -1,6 +1,6 @@
 # frontend/Dockerfile
 FROM node:18
-
+#Docker File para Front
 WORKDIR /app
 
 COPY package*.json ./
