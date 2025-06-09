@@ -10,6 +10,7 @@ import {
   TextField,
 } from '@mui/material';
 
+// Ajuste no get do usuarios, para ficar com /usuarios no final 
 function Usuarios() {
   const [usuarios, setUsuarios] = useState([]);
   const [carregando, setCarregando] = useState(true);
